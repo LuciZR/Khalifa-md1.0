@@ -167,7 +167,7 @@ isForwarded: true,
 }
 
 async function loading () {
-var Ayushlod = [
+var Mialod = [
 "《 ▒▒▒▒▒▒▒▒▒▒▒》10%",
 "《 ████▒▒▒▒▒▒▒▒》30%",
 "《 ███████▒▒▒▒▒》50%",
@@ -178,7 +178,7 @@ var Ayushlod = [
 let { key } = await Maria.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
 for (let i = 0; i < Ayushlod.length; i++) {
-await Maria.sendMessage(from, {text: Ayushlod[i], edit: key });
+await Maria.sendMessage(from, {text: Mialod[i], edit: key });
 }
 }
 
@@ -193,7 +193,7 @@ async function Telesticker(url) {
             data2 = await axios(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${fileId}`)
             result = {
             status: 200,
-            author: '💙𓆩‎✘LuciZR✘𓆪_✰',
+            author: '‎✘LuciZR✘',
             url: "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + data2.data.result.file_path
             }
             mariayresult.push(result)
@@ -235,7 +235,7 @@ async function Telesticker(url) {
         }
         
         if (autobio) {
-            Maria.updateProfileStatus(`Hey, future leaders! 🌟 𝒁𝑹-𝑩𝑶𝑻 𖨆 is here to inspire and lead, thanks to Luci Pvt Ltd. 🚀 ${runtime(process.uptime())} `).catch(_ => _)
+            Maria.updateProfileStatus(`Hey, future leaders! 🌟 𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎ is here to inspire and lead, thanks to ✘LuciZR✘. 🚀 ${runtime(process.uptime())} `).catch(_ => _)
         }
         if (m.sender.startsWith('212') && global.anti212 === true) {
             return Maria.updateBlockStatus(m.sender, 'block')
@@ -608,9 +608,9 @@ break
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: ' *🎐𝒁𝑹-𝑩𝑶𝑻 𖨆 Broadcast🎐* ',
+                                title: ' *𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎  𝙱𝚛𝚘𝚍𝚌𝚞𝚎𝚜𝚝* ',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/3fd18ee11521117c7c882.jpg',
+                                thumbnailUrl: 'https://i.imgur.com/1gsbftg.png',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -839,12 +839,12 @@ case 'tag': case 'tagall': case 'all':{
           let response = await Maria.groupInviteCode(m.chat);
           Maria.sendText(
             m.sender,
-            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- ZR MD\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
+            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- 𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
             m,
             { detectLink: true }
           );
         }
-        await Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/hzWYhzhMTeEAAAPo/maria-useless.mp4` }, caption: 'I sent you the Group Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
+        await Maria.sendMessage(m.chat, { video: { url: `https://i.imgur.com/uQ7QtXd.mp4` }, caption: 'I sent you the Group Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
         break
         
             case 'revoke':
@@ -861,11 +861,11 @@ case 'tag': case 'tagall': case 'all':{
             
             case "sc": case "script": case"repo": {
 const axios = require("axios");
-let repoInfo = await axios.get("https://api.github.com/repos/LuciZR/ZR-BOT-MD");
+let repoInfo = await axios.get("https://api.github.com/repos/LuciZR/Khalifa-md");
         let repo = repoInfo.data;
         console.log(repo);
 
-   const scritxt = `*💙𓆩‎✘𝒁𝑹-𝑩𝑶𝑻 𖨆✘𓆪_✰*\n
+   const scritxt = `*𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎*\n
   *🌟Creator:* LuciZR\n
   *🌟 Repo:* ${repo.html_url}\n
   *🌟 Total Forks:* ${repo.forks_count}\n
@@ -873,10 +873,10 @@ let repoInfo = await axios.get("https://api.github.com/repos/LuciZR/ZR-BOT-MD");
   *📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n
   *📅 Last Updated:* ${repo.updated_at}\n
  
-©️ *Ayush Bots inc* 
+©️ *✘LuciZR✘* 
 *❝ Dont forget to give a Star ⭐ to the repo.*`
 
-        Maria.sendMessage(from, { video: { url: 'https://media.tenor.com/Zco-fadJri4AAAPo/code-matrix.mp4' }, gifPlayback: true, caption: scritxt }, { quoted: m })
+        Maria.sendMessage(from, { video: { url: 'https://i.imgur.com/xtvehRS.mp4' }, gifPlayback: true, caption: scritxt }, { quoted: m })
 }
         break;
         
@@ -1254,7 +1254,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
 //////////////////////////////
             case "rules":
       
-        const helptxt = `_*📍[Rules for Luci Md usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add Luci-Md in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if Luci-Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Luci Pvt Ltd* `
+        const helptxt = `_*📍[Rules for 𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎ usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add 𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎ in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if 𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎ is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Luci Pvt Ltd* `
 
         Maria.sendMessage(from, { video: { url: 'https://c.tenor.com/geMdtLCXZkAAAAPo/rules.mp4' }, gifPlayback: true, caption: helptxt }, { quoted: m })
 
@@ -1262,7 +1262,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
       case 'hii': case 'hi': case 'Hi':
        
         
-        let txxt = `👋🏻 Hi *${pushname}*, i am  *𝒁𝑹-𝑩𝑶𝑻 𖨆*📍\nA whatsapp bot created by: Luci \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
+        let txxt = `👋🏻 Hi *${pushname}*, i am  *𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎*📍\nA whatsapp bot created by: LuciZR \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
 
         Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch1.jpg" }, caption: txxt, gifPlayback: true }, { quoted: m });
         break
@@ -1279,8 +1279,8 @@ https://chat.whatsapp.com/HuQXSSgC80hERPfi4D4D2i`
 
       case "info":
             Maria.sendMessage(from, { react: { text: "ℹ️", key: m.key }}) 
-        let ifx = `🌟𓆩‎✘𝒁𝑹-𝑩𝑶𝑻 𖨆✘𓆪_✰🌟
-*🌟Description:* A WhatsApp Bot With Rich  features based on Maria
+        let ifx = `*𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎*
+*🌟Description:* A WhatsApp Bot With Rich  features based on Kalifa 
 *👤Creator:*  LuciZR
 *🕸Version:* 1.2.0
 *🎀supportgc:* http://gg.gg/Luci-Bot-Group
@@ -1566,20 +1566,16 @@ case 'truth':
                            Maria.sendMessage(from, { image: buffer, caption: '*You have chosen Truth*\n'+ Mariatruthww }, {quoted:m})
                            break
                            
-  case 'menu': case 'luci': case 'janu': 
-  const txt = `╭─「 *💙𓆩‎✘𝒁𝑹-𝑩𝑶𝑻 𖨆✘𓆪_✰* 」
+  case 'menu': case 'mia': case 'janu': case 'Khalifa':
+  const txt = `╭─「 *𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎* 」
 │⋊ 𝕌𝕤𝕖𝕣: ${pushname} 
 │⋊ 𝔹𝕠𝕥:  ${botname}
-│⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  *${prefix}*
-│⋊ 𝔻𝕒𝕥𝕖: ${xdate}
 │⋊ 𝕋𝕚𝕞𝕖:  ${xtime}
 │⋊ 𝕆𝕨𝕟𝕖𝕣: ${ownername}
 │⋊ 𝕧𝕖𝕣𝕤𝕚𝕠𝕟: ${mver}
-│⋊ ℍ𝕠𝕤𝕥: ${os.hostname()}
-│⋊ ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞: ${os.platform()} 
 │⋊ ℝ𝕦𝕟𝕥𝕚𝕞𝕖: ${runtime(process.uptime())}
-│⋊ 𝕋𝕠𝕥𝕒𝕝𝕔𝕞𝕕: ${mariafeature()}
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://gg.gg/Luci-Bot-Group
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡:⬇️
+│⋊ Link  http://gg.gg/Luci-Bot-Group
 ╰────────────┈平和
 Here's the list of my Commands.🔖
 ${readmore}
@@ -1982,7 +1978,7 @@ case 'hidetag': {
  
 
 			    
-         case 'pinterest':
+         case 'pinterest': case 'photo':
       case 'pin': {
       if (!args.join(" ")) return reply(`🧩${pushname}Please provide a search term!`);
         reply(mess.waiting)
@@ -2071,7 +2067,7 @@ case 'welcome':
 
 
 case 'git': case 'gitclone':
-if (!args[0]) return reply(`🧩Where is the link?\n🔮Example :\n${prefix}${command} https://github.com/LuciZR/ZR-BOT-MD`)
+if (!args[0]) return reply(`🧩Where is the link?\n🔮Example :\n${prefix}${command} https://github.com/LuciZR/Kalifa-md`)
 if (!isUrl(args[0]) && !args[0].includes('github.com')) return replygcMaria(`Link invalid!!`)
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     let [, user, repo] = args[0].match(regex1) || []
@@ -2242,7 +2238,7 @@ case 'dev':
 
     case 'list': case 'listmenu': {  
     const listmenu = require("./Gallery/lib/list.js");
-    Maria.sendMessage(m.chat, { video: { url: 'https://picfiles.alphacoders.com/623/623720.jpeg ' }, caption: listmenu }, { quoted: m });
+    Maria.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/b7og2OS.png ' }, caption: listmenu }, { quoted: m });
 }
 break;
 
@@ -2250,7 +2246,7 @@ case 'help1': case 'h1':{
       
 const h3menu = require("./Gallery/lib/download.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h3menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://i.imgur.com/b7og2OS.png` }, caption: h3menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2258,7 +2254,7 @@ case 'help2': case 'h2':{
       
 const h3menu = require("./Gallery/lib/general.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h3menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://i.imgur.com/ffvmXK8.jpeg` }, caption: h3menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2267,7 +2263,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
       
 const h3menu = require("./Gallery/lib/owner.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h3menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://i.imgur.com/ffvmXK8.jpeg` }, caption: h3menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2278,7 +2274,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h4menu = require("./Gallery/lib/search.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h4menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://i.imgur.com/YcUN8C3.jpeg` }, caption: h4menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2288,7 +2284,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
          
 const h5menu = require("./Gallery/lib/group.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h5menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://i.imgur.com/YcUN8C3.jpeg` }, caption: h5menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2297,7 +2293,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h6menu = require("./Gallery/lib/fun.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h6menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://i.imgur.com/pmKxIgV.jpeg` }, caption: h6menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2306,7 +2302,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h7menu = require("./Gallery/lib/weeb.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h7menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://i.imgur.com/pmKxIgV.jpeg` }, caption: h7menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2315,7 +2311,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h8menu = require("./Gallery/lib/Nsfw.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h8menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://i.imgur.com/4lgeoi6.jpeg` }, caption: h8menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2324,7 +2320,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h9menu = require("./Gallery/lib/SnapBlend.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h9menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://i.imgur.com/4lgeoi6.jpeg` }, caption: h9menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2333,7 +2329,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h10menu = require("./Gallery/lib/other.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h10menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://i.imgur.com/1gsbftg.png` }, caption: h10menu, gifPlayback: true }, { quoted: m });
         }
         break
     
