@@ -1,8 +1,8 @@
 {
-    "name": "𝒁𝑹-𝑩𝑶𝑻 𖨆",
+    "name": "𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎",
     "description": "A WhatsApp bot based on Baileysjs with Multi-Device support",
-    "repository": "https://github.com/LuciZR/ZR-BOT-MD",
-    "logo": "https://i.imgur.com/yav7t4J.jpeg",
+    "repository": "https://github.com/LuciZR/KHALIFA-MD",
+    "logo": "https://i.imgur.com/MFJjT8V.jpeg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
     "buildpacks": [
       {
