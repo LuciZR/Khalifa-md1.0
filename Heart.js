@@ -524,11 +524,11 @@ break
             case 'mode':
                 if (!isCreator) return reply(mess.owner)
                 if (args.length < 1) return reply(`📑 Check out this example: ${prefix + command} in public/self`)
-                if (q == 'publice') {
-                    Maria.public = false
+                if (q == 'public') {
+                    Maria.public = true
                     reply(mess.done)
                 } else if (q == 'self') {
-                    Maria.self = true 
+                    Maria.public = false
                     reply(mess.done)
                 }
                 break
