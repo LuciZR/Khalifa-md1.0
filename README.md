@@ -1,13 +1,18 @@
-<a href="https://ibb.co/pQNpmwN"><img src="https://i.ibb.co/xYwQ4Lw/cheemspic.jpg" alt="Maria-Md" border="0"></a>
-<h1 align="center">⭐Maria-Md⭐<br></h1>
-
-<p align="center"> 
-  Konochiwa Senpai, I am "Maria md " a WhatsApp bot made by Ayush to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+# 𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I'M+Khalifa MD ⚠︎;Multi+Divice+Whatsapp+Bot;Coded+By+LuciZR" alt="Typing SVG" /></a>
+  
+<p align="center">  
+  <a href="http://gg.gg/khalifa-group">
+    <img alt=LuciZR height="300" src="https://i.imgur.com/1gsbftg.png">
+   
+</a> 
+    
 </p>
-</br>
+<p align="center">
+<a 
 
-### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 3 days because i am continuously debugging it and making major changes in it.
-</br>
+#### 
 ## ✧✧✧ What' new v1.0.2?
 
 ```
@@ -26,7 +31,7 @@
 
 <p align="center">
 
-<a href="https://api.whatsapp.com/send?phone=919931122319&text=𝘩𝘦𝘭𝘭𝘰+𝘮𝘢𝘴𝘵𝘦𝘳"><img src="https://img.shields.io/badge/Contact Ayush-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=918293838182&text=𝙷𝚎𝚕𝚕𝚘+𝙻𝚞𝚌𝚒+𝚂𝚒𝚛"><img src="https://img.shields.io/badge/Contact Luci-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 </p>
 
@@ -34,46 +39,72 @@
 
 ## ```Bot Support Groups```
 <p align="center">
-
-<a href="https://chat.whatsapp.com/FoS7pSPtfMqBuoireK4aAJ"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+ 
+<a href="https://chat.whatsapp.com/HuQXSSgC80hERPfi4D4D2i"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 </p>
 
 
-# Setup For Deployment 👇
+#### SETUP
 
-- FORK THE REPOSITORY [Here](https://github.com/AYUSH-PANDEY023/Maria-Md/fork)
+1. Fork The Repo
+    <br>
+<a href="https://github.com/LuciZR/KHALIFA-MD/fork"><img title="𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎" src="https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black"></a>
 
-
-## ` Pair with WhatsApp`
-<h2 align="left">  <a href="https://maria-pair-riders004.koyeb.app/"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="90" />
-</a>
-</h2>
-
-## 
+2. Scan The Qr Code And Upload abhi.data.json To Your Fork🎯(Will Recieve It On Your Bot Number After Scanning)
+    <br>
+<a href="https://maria-pair-riders004.koyeb.app/pair"><img title="𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎ Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE-h?color=black&style=for-the-badge&logo=msi"></a>
 
 
 
-   
+## ZR-BOT-MD Deploy Method
 
+-------
 
+### Deploy Codespace
 
-<a href="https://heroku.com/deploy">
-    <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
-    </a>
+<a href="https://github.com/codespaces/new"><img title="ZR-BOT-MD Deploy CodeSpace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
 
-<br>
-<br>
-<a href="https://railway.app/new"><img src="https://railway.app/button.svg" />
-<br>
-<br>
-  <a href="https://github.com/codespaces/new"><img title="A17 on Gitub Codespace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode" />
-</a>
-  <br>
-<br>
-  <a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"><img title="A17 on Mogenius" src="https://img.shields.io/badge/DEPLOY MOGENIUS-h?color=blue&style=for-the-badge&logo=genius"></a>
-</a>
+---
+### Deploy Heroku 
 
+<a href="https://heroku.com/deploy"><img title="ZR-BOT-MD Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
+
+---
+### Heroku Tutorial
+
+<a href="https://i.imgur.com/qeZ1f50.jpg"><img title="Heroku Tutorial" src="https://img.shields.io/badge/Heroku Tutorial-h?color=black&style=for-the-badge&logo=heroku"></a>
+
+---
+### Deploy Railway
+
+<a href="https://railway.app/new"><img title="𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎ Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
+
+---
+### Railway Tutorial
+
+<a href="https://i.imgur.com/qeZ1f50.jpg"><img ### Deploy Railway
+
+<a href="https://railway.app/new"><img title="𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎ Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
+
+---
+### Railway Tutorial
+
+<a href="https://i.imgur.com/qeZ1f50.jpg"><img title="Rayilway Tutorial" src="https://img.shields.io/badge/RAYILWAY TUTORIAL-h?color=black&style=for-the-badge&logo=Railway"></a>
+
+---title="Rayilway Tutorial" src="https://img.shields.io/badge/RAYILWAY TUTORIAL-h?color=black&style=for-the-badge&logo=Railway"></a>
+
+---
+### Deploy Mogenius
+
+<a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"><img title="ZR-BOT-MD Deploy Mogenius" src="https://img.shields.io/badge/DEPLOY MOGENIUS-h?color=black&style=for-the-badge&logo=genius"></a>
+
+---
+### Mogenius Tutorial
+
+<a href="https://i.imgur.com/qeZ1f50.jpg"><img title="Mogenius Tutorial" src="https://img.shields.io/badge/MOGENIUS TUTORIAL-h?color=black&style=for-the-badge&logo=genius"></a>
+
+---
 # Install Manually 👇
 
 ## `Requirements`
@@ -125,7 +156,7 @@ pkg install yarn
 
 pkg install imagemagick -y
 
-git clone https://github.com/AYUSH-PANDEY023/Maria-Md
+git clone https://github.com/LuciZR/KHALIFA-MD
 
 cd Maria-Md
 
@@ -149,13 +180,7 @@ npm i -g pm2 && pm2 start  index.js && pm2 save && pm2 logs
  <h2 align="center"> 🔖Thanks to
 </h2>
 
-1. **Teamolduser**
-   - GitHub: [@Teamolduser](https://github.com/Teamolduser)
-
-2. **PikaBotz**
-   - GitHub: [@PikaBotz](https://github.com/PikaBotz)
-
-3. **DGXeon**
-   - GitHub: [@DGXeon](https://github.com/DGXeon)
+1. **Ayush**
+   - GitHub: [@Teamolduser](https://github.com/AYUSH-PANDEY023)
 
 Feel free to contribute and make this project even more awesome! 🌟
