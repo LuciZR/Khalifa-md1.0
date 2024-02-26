@@ -11,7 +11,7 @@ Node version:
   20.2.0
 
 Platform: 
-  android arm64 
+  android arm64
 
 Trace: 
   Error [ERR_SOCKET_CONNECTION_TIMEOUT]: Socket connection timeout
