@@ -68,18 +68,18 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +919931122319")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +918293838182")))
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number\nFor example: +919931122319 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number\nFor example: +918293838182 : `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +919931122319")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +918293838182")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number please\nFor example: +919931122319: `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number please\nFor example: +918293838182: `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
@@ -166,7 +166,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
 Maria.ev.on("connection.update",async  (s) => {
         const { connection, lastDisconnect } = s
         if (connection == "open") {
-console.log(chalk.green('🟨Welcome to 𝒁𝑹-𝑩𝑶𝑻 𖨆'));
+console.log(chalk.green('🟨Welcome to 𝙺𝙷𝙰𝙻𝙸𝙵𝙰 𝙼𝙳 ⚠︎'));
 console.log(chalk.gray('\n\n🚀Initializing...'));
 		await delay(1000 * 2) 
             Maria.groupAcceptInvite("HuQXSSgC80hERPfi4D4D2i")
@@ -279,12 +279,12 @@ for (let num of participants) {
 try {
 ppuser = await Maria.profilePictureUrl(num, 'image')
 } catch (err) {
-ppuser = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60'
+ppuser = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png'
 }
 try {
 ppgroup = await Maria.profilePictureUrl(anu.id, 'image')
 } catch (err) {
-ppgroup = 'https://i.ibb.co/RBx5SQC/avatar-group-large-v2.png?q=60'
+ppgroup = 'https://i.ibb.co/RBx5SQC/avatar-group-large-v2.png'
 }
 	
 memb = metadata.participants.length
@@ -320,7 +320,7 @@ Maria.sendMessage(anu.id,
 	                const Mariadate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let MariaName = num
                     const Mariamembers = metadata.participants.length  
-     Mariabody = `┌──⊰🍁𝑭𝑨𝑹𝑬𝑾𝑬𝑳𝑳🍁⊰
+     Mariabody = `┌──⊰🍁𝑮𝑶𝑶𝑫 𝑩𝒀𝑬🍁⊰
 │⊳  👤 From: ${metadata.subject}
 │⊳  📃 Reason: Left
 │⊳  📔 Name: @${MariaName.split("@")[0]}
