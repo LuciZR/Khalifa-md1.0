@@ -19,7 +19,7 @@ function start() {
          }
       })
       .on('exit', code => {
-         console.error('Exited with code:', code)
+         console.error('Exited with code:', code) 
          if (code == '.' || code == 1 || code == 0) start()
       })
 }
