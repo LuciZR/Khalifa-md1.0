@@ -1,8 +1,8 @@
 {
-    "name": "Maria-MD",
+    "name": "𝒁𝑹-𝑩𝑶𝑻 𖨆",
     "description": "A WhatsApp bot based on Baileysjs with Multi-Device support",
-    "repository": "https://github.com/AYUSH-PANDEY023/Maria-Md",
-    "logo": "https://telegra.ph/file/351133422917a8bd7d776.jpg",
+    "repository": "https://github.com/LuciZR/ZR-BOT-MD",
+    "logo": "https://i.imgur.com/yav7t4J.jpeg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
     "buildpacks": [
       {
